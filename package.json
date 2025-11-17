@@ -1,0 +1,17 @@
+{
+  "name": "miss-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with /hello and /details commands",
+  "type": "module",
+  "main": "Main.js",
+  "scripts": {
+    "start": "node Main.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "author": "Janidu Sathsara",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.5"
+  }
+}
