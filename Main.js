@@ -48,7 +48,6 @@ const rest = new REST({ version: '10' }).setToken(token);
   }
 })();
 
-// ---------------- BOT READY EVENT ----------------
 client.once("clientReady", () => {
   console.log(`Logged in as ${client.user.tag}`);
 
@@ -61,8 +60,8 @@ client.once("clientReady", () => {
   let i = 0;
   setInterval(() => {
     const totalMembers = client.guilds.cache.reduce((acc, g) => acc + g.memberCount, 0);
-    const totalBoosts = client.guilds.cache.reduce((acc, g) => acc + g.premiumSubscriptionCount, 0);
-    statuses[2].name = `${totalMembers} members | ${totalBoosts} boosts ⭐`;
+    // Remove the boost count
+    statuses[2].name = `${totalMembers} members ⭐`;
 
     client.user.setPresence({ activities: [statuses[i]], status: "online" });
     i = (i + 1) % statuses.length;
