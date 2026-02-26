@@ -1,17 +1,19 @@
 {
   "name": "miss-bot",
   "version": "1.0.0",
-  "description": "Discord bot with /hello and /details commands",
+  "description": "Miss Thiv Official Discord Bot",
   "type": "module",
   "main": "Main.js",
   "scripts": {
-    "start": "node Main.js",
-    "deploy": "node deploy-commands.js"
+    "start": "node Main.js"
   },
   "author": "Janidu Sathsara",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.16.0",
     "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
