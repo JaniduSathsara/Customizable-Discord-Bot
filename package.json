@@ -1,7 +1,7 @@
 {
-  "name": "miss-bot",
+  "name": "bot",
   "version": "1.0.0",
-  "description": "Miss Thiv Official Discord Bot",
+  "description": "Discord Bot",
   "type": "module",
   "main": "Main.js",
   "scripts": {
