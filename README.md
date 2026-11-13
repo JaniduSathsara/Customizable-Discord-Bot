@@ -32,7 +32,7 @@ A feature-rich Discord bot built with Node.js and Discord.js. Easily customize b
 
 ### 1. Clone the Repository
 
-git clone https://github.com/YOUR-USERNAME/Customizable-Discord-Bot.git
+git clone https://github.com/JaniduSathsara/Customizable-Discord-Bot.git
 
 ### 2. Navigate to the Project
 
